@@ -4,9 +4,9 @@ from sklearn.preprocessing import MinMaxScaler
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-st.set_page_config(page_title="SCC Probability Visualization", layout="wide")
+st.set_page_config(page_title="Stress Corrosion Probability Visualization", layout="wide")
 
-st.title("🔬 SCC Probability Estimation - VIRAMGAM KANDLA SECTION")
+st.title("🔬 Probability of Stress Corrosion - VIRAMGAM KANDLA SECTION")
 
 uploaded_file = st.file_uploader("Choose scc_IV_dataset.xlsx", type=["xlsx"])
 
