@@ -6,7 +6,7 @@ import seaborn as sns
 
 st.set_page_config(page_title="Stress Corrosion Probability Visualization", layout="wide")
 
-st.title("🔬 Probability of Stress Corrosion - VIRAMGAM KANDLA SECTION")
+st.title("🔬 Probability of Stress Corrosion - VIRAMGAM Koyali SECTION")
 
 uploaded_file = st.file_uploader("Choose scc_IV_dataset.xlsx", type=["xlsx"])
 
